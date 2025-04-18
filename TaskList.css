@@ -1,0 +1,55 @@
+.task-container{
+  border: 1px solid #ddd;
+  width: 60%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+}
+.task-container:hover{
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.list-container{
+  width: 95%;
+}
+li{
+  overflow-wrap: break-word;
+  border: 1px solid #ddd;
+  margin: 15px;
+  padding: 15px;
+  list-style: none;
+  border-radius: 10px;
+}
+li:hover{
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.delete-button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  background-color: rgb(239, 135, 135);
+  border-radius: 7px;
+  width: 30px;
+
+}
+.buttons-div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width:600px){
+  .task-container{
+    width: 80%;
+  }
+}
+
+@media (max-width:700px){
+  .task-container{
+    width: 80%;
+  }
+}

@@ -1,0 +1,120 @@
+.edit-button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  height: 30px;
+  width: 60px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.main-container{
+  border-radius: 10px;
+}
+.main-container-edit{
+  width:100%;
+}
+.edit-task-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.edit-task-container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* .save-button:hover,
+.cancel-button:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+} */
+
+.edit-form-container{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items:center;
+  justify-content: center;
+  padding: 10px;
+}
+.edit-input-container{
+  margin: 10px;
+  width: 100%;
+}
+
+.edit-description-container{
+  margin: 10px;
+  width: 100%;
+}
+
+.edit-select-container{
+  margin: 10px;
+  width: 100%;
+}
+/* .save-button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  height: 30px;
+  border-radius: 7px;
+  margin-right: 30px;
+} */
+/* .cancel-button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  height: 30px;
+  border-radius: 7px;
+  margin-left: 30px;
+} */
+
+/* @media(max-width:550px){
+  .edit-task-container{
+    height: 400px;
+  }
+  .edit-form-container{
+    justify-content: space-evenly;
+    margin: 0;
+  }
+}
+
+@media(max-width:600px){
+  .edit-task-container{
+    height: 400px;
+  }
+}
+
+@media(max-width:300px) and (max-width:500px){
+  .edit-task-container{
+    height:auto;
+    width: 100%;
+  }
+  .edit-form-container{
+    justify-content: space-evenly;
+    margin: 0;
+  }
+}
+
+@media(max-width:300px) and (max-width:470px){
+  .edit-form-container{
+    margin: 0;
+    padding: 0;
+  }
+  .save-button{
+    margin: 30px;
+  }
+} */
+@media(min-width:300px) and (max-width:500px){
+  .edit-task-container{
+    height:auto;
+    width: 100%;
+  }
+  .edit-form-container{
+    margin: 0;
+  }
+}
